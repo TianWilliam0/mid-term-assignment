@@ -1,0 +1,29 @@
+prompt1 = "harry"
+result1 = "harry   sat   down ,   looking   around .   For   a   moment ,  he   didn ' t   know   what   to   do."
+
+prompt2 = "For those who are very clear-minded"
+result2 = "For those who are very clear-minded , "   said   Professor   McGonagall .   She   strode   past   Harry."
+
+prompt3 = "Voldemort creates hostility"
+result3 = "Voldemort creates hostility   in   a   person ' s   mind ,   it   is   not   the   jinxes   or   hexes.”
+
+prompt4 = "What is coming will come,"
+result4 = "What is coming will come,   I   expect ? " Harry   found   Ron   at   the   front   of   all   their   preparations   kroa  siu .”
+
+prompt5 = "From this moment on, "
+result5 = "From this moment on,   Mrs .   Weasley   was   going   to   scream   in   terror ."
+
+prompt6 = "People cannot live in dreams"
+result6 = "People cannot live in dreams   without   their   brains ,   and   the   mind   is   most   powerful”
+
+prompt7 = "You are not your choices, Harry"
+result7 = "You are not your choices, Harry ,   you   will   be   punished . " The   banshee   had   just   entered"
+
+prompt8 = "The past can hurt"
+result8 = "The past can hurt   findin ' ,   Harry   thought ,  cause   Olympe   had   heard   the   name   " Potter . "”
+
+prompt9 = "It takes a great deal of bravery"
+result9 = "It takes a great deal of bravery   to   be   brave ,   Potter . " Harry   couldn ' t   take   it   in”
+
+prompt10 = "You fight your own fear"
+result10 = "You fight your own fear   and   always   do   as   you   are   told ,   Severus . " Lupin   smiled . "”
