@@ -1,9 +1,8 @@
 Text Generation Project with distilgpt2 and gpt2 Models
 This project uses the distilgpt2 and gpt2 models, fine-tuned on two distinct datasets: a Chinese dataset based on The Condor Trilogy and an English dataset based on Harry Potter. The goal is to generate contextually relevant and stylistically consistent text by training and testing on these datasets.
 
-Project Structure
-bash
-复制代码
+Before running this project, please create a 3.10 virtual environment and install the requirement lib.
+
 ├── pre_pro.py                  # Cleans and segments raw text data
 ├── create_sequences.py         # Splits segmented text into sequences of fixed length (default 100 chars)
 ├── model_train.py              # Script for model training
@@ -15,21 +14,24 @@ bash
 ├── result_harry/               # Results using `distilgpt2` trained on *Harry Potter*
 ├── result_distilgpt2/          # Results using `distilgpt2` trained on *The Condor Trilogy*
 ├── results/                    # Results using `gpt2` trained on *The Condor Trilogy*
-├── trained_model_harry/        # Fine-tuned model on *Harry Potter*
-├── checkpoint/                 # Intermediate model checkpoints
+├── trained_model_harry/        # Intermediate model checkpoints on *Harry Potter*
+├── trained_model/              # Intermediate model checkpoints on *The Condor Trilogy*
+├── trained_model_distilgpt2/   # Intermediate model checkpoints on *The Condor Trilogy*
 └── README.md                   # Project documentation
+Of these, result_harry、result_distilgpt2、results、trained_model_harry、trained_model、trained_model_distilgpt2 are larger and is stored in the Quark Cloud Driver.
+LINK: https://pan.quark.cn/s/0ffdc42df725
+
 1. Datasets
 Chinese Dataset: Text from The Condor Trilogy, a classical martial arts series.
 English Dataset: Text from the Harry Potter series.
 2. Prerequisites
-Python 3.7+
+Python 3.10+
 transformers library
 torch library
 GPU (optional, for faster training and inference)
 To install required libraries, run:
 
-bash
-复制代码
+
 pip install torch transformers
 3. Data Preprocessing
 Cleaning and Segmentation
@@ -41,8 +43,7 @@ Model Options: Training can be performed using either distilgpt2 or gpt2 models.
 Checkpoints: Checkpoints are saved periodically during training in the checkpoint/ directory, allowing model performance tracking and comparison between iterations.
 Example training code snippet for using Hugging Face’s distilgpt2:
 
-python
-复制代码
+
 from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
 
 # Load model and tokenizer
@@ -79,8 +80,7 @@ Testing scripts load trained models and output results stored in the result_harr
 Text Generation
 Example code for generating text using the fine-tuned models:
 
-python
-复制代码
+
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
