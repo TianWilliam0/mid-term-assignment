@@ -133,6 +133,9 @@ Generated text results are saved as follows:
 result_harry/: Results from distilgpt2 fine-tuned on Harry Potter.
 result_distilgpt2/: Results from distilgpt2 fine-tuned on The Condor Trilogy.
 results/: Results from gpt2 fine-tuned on The Condor Trilogy.
+Exam results:
+![image](https://github.com/user-attachments/assets/c187eccb-4ec4-4982-bfc5-e19e1d008416)
+
 7. Troubleshooting Tips
 If generated text is too short, consider increasing min_length in the generate function.
 If repetitive content appears, adjust repetition_penalty or experiment with top_k and top_p values.
