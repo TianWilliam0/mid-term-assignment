@@ -135,6 +135,8 @@ result_distilgpt2/: Results from distilgpt2 fine-tuned on The Condor Trilogy.
 results/: Results from gpt2 fine-tuned on The Condor Trilogy.
 Exam results:
 ![image](https://github.com/user-attachments/assets/c187eccb-4ec4-4982-bfc5-e19e1d008416)
+![image](https://github.com/user-attachments/assets/e6d983e4-ea88-467c-aeec-dfa187d86737)
+![image](https://github.com/user-attachments/assets/6f28c23c-fefb-477b-aaad-4453c2b74d6b)
 
 7. Troubleshooting Tips
 If generated text is too short, consider increasing min_length in the generate function.
